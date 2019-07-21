@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -16,9 +17,21 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var newUserBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         userNameTxtFld.becomeFirstResponder()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let vc = segue.destination as? NewUserViewController else {
+            return
+        }
+        
+        vc.userName = userNameTxtFld.text!
+        vc.pass = passTxtFld.text!
     }
     
     private func setupView() {
@@ -42,34 +55,33 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLoginTapped(_ sender: Any) {
+        SVProgressHUD.show()
+        LoginViewController.doLogin(userNameOrEmail: userNameTxtFld.text!, pass: passTxtFld.text!)
+    }
+    
+    class func doLogin(userNameOrEmail: String, pass: String) {
         
-        LoginManager.shared.login(userNameOrEmail: userNameTxtFld.text!, pass: passTxtFld.text!){
+        LoginManager.shared.login(userNameOrEmail: userNameOrEmail, pass: pass){
             result in
+           
+            SVProgressHUD.dismiss()
             
             switch result {
             case .success:
-                self.showMainView()
+                LoginViewController.showMainView()
             case .failure(let error):
-               self.displayError(error: error)
+                UIApplication.shared.keyWindow?.rootViewController?.displayError(error: error)
             }
-           
+            
         }
-        /*RestClient.shared.getCountryInfo { result in
-            if result.isSuccess {
-                
-            }
-            
-            
-        }*/
     }
     
-    private func showMainView() {
+     class func showMainView() {
         let sb = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = sb.instantiateInitialViewController() as! CountryInfoViewController
         
         UIApplication.shared.keyWindow?.rootViewController = vc
-        
-    }
+     }
       
    
 }

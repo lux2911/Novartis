@@ -7,16 +7,45 @@
 //
 
 import UIKit
+import Auth0
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController =  getInitialViewController()
+        self.window?.makeKeyAndVisible()
+        
         return true
+    }
+    
+    func getInitialViewController() -> UIViewController {
+               
+        if RestClient.shared.countryId == "IR" {
+            LoginManager.credentialsManager.credentials { (error, credentials) in
+                guard error == nil, let credentials = credentials else {
+                    return
+                }
+                LoginManager.credentials = credentials
+            }
+            
+            let sbName = LoginManager.credentialsManager.hasValid() ? "Main" : "Login"
+            let sb = UIStoryboard.init(name: sbName, bundle: nil)
+            return sb.instantiateInitialViewController()!
+        }
+        else // Germany
+        {
+            let sbName = (LoginManager.userData != nil) ? "Main" : "Login"
+            let sb = UIStoryboard.init(name: sbName, bundle: nil)
+            if sbName == "Login" {
+                return sb.instantiateViewController(withIdentifier: "InvitationCodeLoginViewController")
+            }
+            return sb.instantiateInitialViewController()!
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

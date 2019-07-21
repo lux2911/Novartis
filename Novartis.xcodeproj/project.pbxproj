@@ -10,13 +10,11 @@
 		28083E058B38DC54BABF0ECB /* Pods_Novartis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */; };
 		5E6BD33A7BB518445B6D9C90 /* Pods_NovartisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB40B91B9E1A7859F1A2863 /* Pods_NovartisTests.framework */; };
 		D576A23822E33C74001461AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A23722E33C74001461AF /* AppDelegate.swift */; };
-		D576A23A22E33C74001461AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A23922E33C74001461AF /* ViewController.swift */; };
 		D576A23D22E33C74001461AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A23B22E33C74001461AF /* Main.storyboard */; };
 		D576A23F22E33C76001461AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576A23E22E33C76001461AF /* Assets.xcassets */; };
 		D576A24222E33C76001461AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A24022E33C76001461AF /* LaunchScreen.storyboard */; };
 		D576A24D22E33C76001461AF /* NovartisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A24C22E33C76001461AF /* NovartisTests.swift */; };
 		D576A25822E33C76001461AF /* NovartisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A25722E33C76001461AF /* NovartisUITests.swift */; };
-		D576A27422E33DBB001461AF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A27322E33DBB001461AF /* Login.storyboard */; };
 		D576A27722E34152001461AF /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A27622E34152001461AF /* CountryInfo.swift */; };
 		D576A27922E34DD9001461AF /* IR.json in Resources */ = {isa = PBXBuildFile; fileRef = D576A27822E34DD9001461AF /* IR.json */; };
 		D576A27B22E34DEB001461AF /* GE.json in Resources */ = {isa = PBXBuildFile; fileRef = D576A27A22E34DEB001461AF /* GE.json */; };
@@ -31,6 +29,33 @@
 		D576A29222E3A4E3001461AF /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = D576A29122E3A4E3001461AF /* Auth0.plist */; };
 		D576A29522E3AD0C001461AF /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29422E3AD0C001461AF /* UIViewControllerEx.swift */; };
 		D576A29822E3AD78001461AF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29722E3AD78001461AF /* Helpers.swift */; };
+		D576A29B22E3CE42001461AF /* InvitationCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29A22E3CE42001461AF /* InvitationCodeLoginViewController.swift */; };
+		D576A29F22E48BF2001461AF /* CountryInfoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29E22E48BF2001461AF /* CountryInfoCellTableViewCell.swift */; };
+		D576A2A122E4E770001461AF /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A2A022E4E770001461AF /* StringEx.swift */; };
+		D576A2A522E4F2E2001461AF /* CountryInfoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29E22E48BF2001461AF /* CountryInfoCellTableViewCell.swift */; };
+		D576A2A622E4F2E2001461AF /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29422E3AD0C001461AF /* UIViewControllerEx.swift */; };
+		D576A2A722E4F2E2001461AF /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28922E38709001461AF /* RestClient.swift */; };
+		D576A2A822E4F2E2001461AF /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A2A022E4E770001461AF /* StringEx.swift */; };
+		D576A2A922E4F2E2001461AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28022E35852001461AF /* LoginViewController.swift */; };
+		D576A2AB22E4F2E2001461AF /* ServiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28722E3814F001461AF /* ServiceRouter.swift */; };
+		D576A2AC22E4F2E2001461AF /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28222E36199001461AF /* NewUserViewController.swift */; };
+		D576A2AD22E4F2E2001461AF /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28F22E39CFF001461AF /* LoginManager.swift */; };
+		D576A2AE22E4F2E2001461AF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29722E3AD78001461AF /* Helpers.swift */; };
+		D576A2AF22E4F2E2001461AF /* CountryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28422E3662C001461AF /* CountryInfoViewController.swift */; };
+		D576A2B022E4F2E2001461AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A23722E33C74001461AF /* AppDelegate.swift */; };
+		D576A2B122E4F2E2001461AF /* CountryInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28C22E3995F001461AF /* CountryInfoViewModel.swift */; };
+		D576A2B222E4F2E2001461AF /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A27622E34152001461AF /* CountryInfo.swift */; };
+		D576A2B322E4F2E2001461AF /* InvitationCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29A22E3CE42001461AF /* InvitationCodeLoginViewController.swift */; };
+		D576A2B522E4F2E2001461AF /* Pods_Novartis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */; };
+		D576A2B722E4F2E2001461AF /* IR.json in Resources */ = {isa = PBXBuildFile; fileRef = D576A27822E34DD9001461AF /* IR.json */; };
+		D576A2B922E4F2E2001461AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A24022E33C76001461AF /* LaunchScreen.storyboard */; };
+		D576A2BA22E4F2E2001461AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576A23E22E33C76001461AF /* Assets.xcassets */; };
+		D576A2BB22E4F2E2001461AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A23B22E33C74001461AF /* Main.storyboard */; };
+		D576A2BC22E4F2E2001461AF /* envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = D576A27D22E34F21001461AF /* envelope.png */; };
+		D576A2BD22E4F2E2001461AF /* GE.json in Resources */ = {isa = PBXBuildFile; fileRef = D576A27A22E34DEB001461AF /* GE.json */; };
+		D576A2BE22E4F2E2001461AF /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = D576A29122E3A4E3001461AF /* Auth0.plist */; };
+		D576A2C722E51E1D001461AF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A2CA22E51E1D001461AF /* Login.storyboard */; };
+		D576A2C822E51E1D001461AF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A2CA22E51E1D001461AF /* Login.storyboard */; };
 		F478A0BD09264B73EB1F7BCD /* Pods_NovartisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC7D96B7EEAB6F3093DBAA0 /* Pods_NovartisUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +86,6 @@
 		C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis.release.xcconfig"; path = "Target Support Files/Pods-Novartis/Pods-Novartis.release.xcconfig"; sourceTree = "<group>"; };
 		D576A23422E33C74001461AF /* Novartis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novartis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576A23722E33C74001461AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D576A23922E33C74001461AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D576A23C22E33C74001461AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D576A23E22E33C76001461AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D576A24122E33C76001461AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +96,6 @@
 		D576A25322E33C76001461AF /* NovartisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovartisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576A25722E33C76001461AF /* NovartisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovartisUITests.swift; sourceTree = "<group>"; };
 		D576A25922E33C76001461AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D576A27322E33DBB001461AF /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		D576A27622E34152001461AF /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 		D576A27822E34DD9001461AF /* IR.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = IR.json; sourceTree = "<group>"; };
 		D576A27A22E34DEB001461AF /* GE.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GE.json; sourceTree = "<group>"; };
@@ -87,6 +110,15 @@
 		D576A29122E3A4E3001461AF /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		D576A29422E3AD0C001461AF /* UIViewControllerEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
 		D576A29722E3AD78001461AF /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		D576A29A22E3CE42001461AF /* InvitationCodeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationCodeLoginViewController.swift; sourceTree = "<group>"; };
+		D576A29E22E48BF2001461AF /* CountryInfoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfoCellTableViewCell.swift; sourceTree = "<group>"; };
+		D576A2A022E4E770001461AF /* StringEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		D576A2C322E4F2E2001461AF /* Novartis Germany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Novartis Germany.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D576A2C422E4F2E3001461AF /* Novartis Germany.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Novartis Germany.plist"; path = "/Users/lux/Documents/Novartis/Novartis Germany.plist"; sourceTree = "<absolute>"; };
+		D576A2C522E51CFB001461AF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		D576A2C622E51CFB001461AF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D576A2C922E51E1D001461AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		D576A2CC22E51E2B001461AF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Login.strings; sourceTree = "<group>"; };
 		DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Novartis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC7D96B7EEAB6F3093DBAA0 /* Pods_NovartisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovartisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +148,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D576A2B422E4F2E2001461AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576A2B522E4F2E2001461AF /* Pods_Novartis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -138,6 +178,7 @@
 				D576A23522E33C74001461AF /* Products */,
 				F90635BBD4E847B978BB9294 /* Pods */,
 				1178783BBAB1EC5AFD192130 /* Frameworks */,
+				D576A2C422E4F2E3001461AF /* Novartis Germany.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +188,7 @@
 				D576A23422E33C74001461AF /* Novartis.app */,
 				D576A24822E33C76001461AF /* NovartisTests.xctest */,
 				D576A25322E33C76001461AF /* NovartisUITests.xctest */,
+				D576A2C322E4F2E2001461AF /* Novartis Germany.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,13 +205,10 @@
 				D576A27C22E34F0F001461AF /* Resources */,
 				D576A27522E3413B001461AF /* Models */,
 				D576A23722E33C74001461AF /* AppDelegate.swift */,
-				D576A23922E33C74001461AF /* ViewController.swift */,
-				D576A23B22E33C74001461AF /* Main.storyboard */,
 				D576A23E22E33C76001461AF /* Assets.xcassets */,
 				D576A24022E33C76001461AF /* LaunchScreen.storyboard */,
 				D576A24322E33C76001461AF /* Info.plist */,
 				D576A29122E3A4E3001461AF /* Auth0.plist */,
-				D576A27322E33DBB001461AF /* Login.storyboard */,
 			);
 			path = Novartis;
 			sourceTree = "<group>";
@@ -213,9 +252,8 @@
 		D576A27F22E3582B001461AF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D576A28022E35852001461AF /* LoginViewController.swift */,
-				D576A28222E36199001461AF /* NewUserViewController.swift */,
-				D576A28422E3662C001461AF /* CountryInfoViewController.swift */,
+				D576A29C22E48BA5001461AF /* Home */,
+				D576A29922E3CE08001461AF /* Login */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				D576A29422E3AD0C001461AF /* UIViewControllerEx.swift */,
+				D576A2A022E4E770001461AF /* StringEx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,6 +298,35 @@
 				D576A29722E3AD78001461AF /* Helpers.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D576A29922E3CE08001461AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D576A28022E35852001461AF /* LoginViewController.swift */,
+				D576A28222E36199001461AF /* NewUserViewController.swift */,
+				D576A29A22E3CE42001461AF /* InvitationCodeLoginViewController.swift */,
+				D576A2CA22E51E1D001461AF /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D576A29C22E48BA5001461AF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D576A29D22E48BBB001461AF /* Cells */,
+				D576A28422E3662C001461AF /* CountryInfoViewController.swift */,
+				D576A23B22E33C74001461AF /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D576A29D22E48BBB001461AF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D576A29E22E48BF2001461AF /* CountryInfoCellTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F90635BBD4E847B978BB9294 /* Pods */ = {
@@ -334,6 +402,25 @@
 			productReference = D576A25322E33C76001461AF /* NovartisUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D576A2A222E4F2E2001461AF /* Novartis Germany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D576A2C022E4F2E2001461AF /* Build configuration list for PBXNativeTarget "Novartis Germany" */;
+			buildPhases = (
+				D576A2A322E4F2E2001461AF /* [CP] Check Pods Manifest.lock */,
+				D576A2A422E4F2E2001461AF /* Sources */,
+				D576A2B422E4F2E2001461AF /* Frameworks */,
+				D576A2B622E4F2E2001461AF /* Resources */,
+				D576A2BF22E4F2E2001461AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Novartis Germany";
+			productName = Novartis;
+			productReference = D576A2C322E4F2E2001461AF /* Novartis Germany.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -364,6 +451,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = D576A22B22E33C74001461AF;
 			productRefGroup = D576A23522E33C74001461AF /* Products */;
@@ -373,6 +461,7 @@
 				D576A23322E33C74001461AF /* Novartis */,
 				D576A24722E33C76001461AF /* NovartisTests */,
 				D576A25222E33C76001461AF /* NovartisUITests */,
+				D576A2A222E4F2E2001461AF /* Novartis Germany */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D576A27922E34DD9001461AF /* IR.json in Resources */,
-				D576A27422E33DBB001461AF /* Login.storyboard in Resources */,
+				D576A2C722E51E1D001461AF /* Login.storyboard in Resources */,
 				D576A24222E33C76001461AF /* LaunchScreen.storyboard in Resources */,
 				D576A23F22E33C76001461AF /* Assets.xcassets in Resources */,
 				D576A23D22E33C74001461AF /* Main.storyboard in Resources */,
@@ -404,6 +493,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576A2B622E4F2E2001461AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576A2B722E4F2E2001461AF /* IR.json in Resources */,
+				D576A2C822E51E1D001461AF /* Login.storyboard in Resources */,
+				D576A2B922E4F2E2001461AF /* LaunchScreen.storyboard in Resources */,
+				D576A2BA22E4F2E2001461AF /* Assets.xcassets in Resources */,
+				D576A2BB22E4F2E2001461AF /* Main.storyboard in Resources */,
+				D576A2BC22E4F2E2001461AF /* envelope.png in Resources */,
+				D576A2BD22E4F2E2001461AF /* GE.json in Resources */,
+				D576A2BE22E4F2E2001461AF /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +586,56 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D576A2A322E4F2E2001461AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Novartis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D576A2BF22E4F2E2001461AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Novartis/Pods-Novartis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Novartis/Pods-Novartis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F768AA1EA4485FC023729F58 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,10 +665,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D576A29F22E48BF2001461AF /* CountryInfoCellTableViewCell.swift in Sources */,
 				D576A29522E3AD0C001461AF /* UIViewControllerEx.swift in Sources */,
 				D576A28A22E38709001461AF /* RestClient.swift in Sources */,
+				D576A2A122E4E770001461AF /* StringEx.swift in Sources */,
 				D576A28122E35852001461AF /* LoginViewController.swift in Sources */,
-				D576A23A22E33C74001461AF /* ViewController.swift in Sources */,
 				D576A28822E3814F001461AF /* ServiceRouter.swift in Sources */,
 				D576A28322E36199001461AF /* NewUserViewController.swift in Sources */,
 				D576A29022E39CFF001461AF /* LoginManager.swift in Sources */,
@@ -523,6 +678,7 @@
 				D576A23822E33C74001461AF /* AppDelegate.swift in Sources */,
 				D576A28D22E3995F001461AF /* CountryInfoViewModel.swift in Sources */,
 				D576A27722E34152001461AF /* CountryInfo.swift in Sources */,
+				D576A29B22E3CE42001461AF /* InvitationCodeLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +695,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				D576A25822E33C76001461AF /* NovartisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576A2A422E4F2E2001461AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576A2A522E4F2E2001461AF /* CountryInfoCellTableViewCell.swift in Sources */,
+				D576A2A622E4F2E2001461AF /* UIViewControllerEx.swift in Sources */,
+				D576A2A722E4F2E2001461AF /* RestClient.swift in Sources */,
+				D576A2A822E4F2E2001461AF /* StringEx.swift in Sources */,
+				D576A2A922E4F2E2001461AF /* LoginViewController.swift in Sources */,
+				D576A2AB22E4F2E2001461AF /* ServiceRouter.swift in Sources */,
+				D576A2AC22E4F2E2001461AF /* NewUserViewController.swift in Sources */,
+				D576A2AD22E4F2E2001461AF /* LoginManager.swift in Sources */,
+				D576A2AE22E4F2E2001461AF /* Helpers.swift in Sources */,
+				D576A2AF22E4F2E2001461AF /* CountryInfoViewController.swift in Sources */,
+				D576A2B022E4F2E2001461AF /* AppDelegate.swift in Sources */,
+				D576A2B122E4F2E2001461AF /* CountryInfoViewModel.swift in Sources */,
+				D576A2B222E4F2E2001461AF /* CountryInfo.swift in Sources */,
+				D576A2B322E4F2E2001461AF /* InvitationCodeLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +739,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D576A23C22E33C74001461AF /* Base */,
+				D576A2C522E51CFB001461AF /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -570,8 +748,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D576A24122E33C76001461AF /* Base */,
+				D576A2C622E51CFB001461AF /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D576A2CA22E51E1D001461AF /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D576A2C922E51E1D001461AF /* Base */,
+				D576A2CC22E51E2B001461AF /* de */,
+			);
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -581,6 +769,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -642,6 +831,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -706,7 +896,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lux.Novartis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "IRELAND USE_MOCK_DATA";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "USE_MOCK_DATA IRELAND";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -812,6 +1002,43 @@
 			};
 			name = Release;
 		};
+		D576A2C122E4F2E2001461AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F555915B75BBC7C0E063D5 /* Pods-Novartis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Novartis Germany.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lux.Novartis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "USE_MOCK_DATA GERMANY";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D576A2C222E4F2E2001461AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Novartis Germany.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lux.Novartis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -847,6 +1074,15 @@
 			buildConfigurations = (
 				D576A26322E33C76001461AF /* Debug */,
 				D576A26422E33C76001461AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D576A2C022E4F2E2001461AF /* Build configuration list for PBXNativeTarget "Novartis Germany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D576A2C122E4F2E2001461AF /* Debug */,
+				D576A2C222E4F2E2001461AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

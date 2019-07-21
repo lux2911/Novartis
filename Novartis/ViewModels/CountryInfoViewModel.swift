@@ -20,6 +20,31 @@ class CountryInfoViewModel {
     var reloadData: (()->Void)?
     var displayError: ((Error)->Void)?
     
+    private var country : Country?
+    var countryFields: [CountryField] {
+        if let country = self.country {
+            switch country {
+                case .ireland(let properties), .germany(let properties):
+                return properties
+            }
+        }
+        return []
+    }
+    
+    init() {
+        initCountry()
+    }
+    
+    private func initCountry() {
+        switch RestClient.shared.countryId {
+        case "GE":
+            country = Country.germany([.area, .population, .largestCity, .density, .capital])
+        default:
+            country = Country.ireland([.area, .population, .largestCity, .spokenLanguages, .currency])
+            
+        }
+    }
+    
     func getCountryInfo() {
         
         RestClient.shared.getCountryInfo { result in

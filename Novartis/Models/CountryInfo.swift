@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct CountryInfo: Codable, BaseCountryInfo {
-    
+struct CountryInfo: Codable {
     let area: Int
     let density: Double
     let population: Int
@@ -18,22 +17,42 @@ struct CountryInfo: Codable, BaseCountryInfo {
     let spokenLanguages: [String]
     let currency: String
     
-}
-
-protocol BaseCountryInfo {
+    subscript(index: Int) -> (String, String) {
+        let mirror = Mirror(reflecting: self)
+        if index >= mirror.children.count { return ("","")}
+        
+        let idx = mirror.children.index(mirror.children.startIndex, offsetBy: index)
+        let property = mirror.children[idx]
+        let val = String(describing: property.value)
+        return (property.label!, val)
+    }
     
-    var area: Int { get }
-    var population: Int { get }
-    var largestCity: String { get }
+    subscript(name: String) -> (String, String) {
+        let mirror = Mirror(reflecting: self)
+        if let property = mirror.children.first(where: { (arg0) -> Bool in
+            arg0.label! == name
+        }) {
+            let val = String(describing: property.value)
+            return (property.label!, val)
+        }
+        return ("","")
+    }
 }
 
-protocol IrelandInfo: BaseCountryInfo {
-    var spokenLanguages: [String] { get }
-    var currency: String { get }
+enum CountryField : String {
+    case area
+    case population
+    case largestCity
+    
+    case spokenLanguages
+    case currency
+    
+    case density
+    case capital
 }
 
-protocol GermanyInfo: BaseCountryInfo {
-    var density: Double { get }
-    var capital: String { get }
+enum Country {
+    case ireland([CountryField])
+    case germany([CountryField])
 }
 

@@ -12,11 +12,10 @@ import UIKit
 enum Helpers {
     enum ViewHelpers {
                 
-        static func showAlert(viewController: UIViewController, message: String, title: String = "Alert" ) {
+        static func showAlert(viewController: UIViewController, message: String, title: String = "Alert", handler: ((UIAlertAction) -> Void)? = nil)   {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-            alert.addAction( UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+            alert.addAction( UIAlertAction(title: "Ok", style: .cancel, handler: handler))
             viewController.present(alert, animated: true, completion: nil)
         }
-        
     }
 }

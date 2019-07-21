@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 extension UIViewController {
-    func displayError(error: Error) {
-        Helpers.ViewHelpers.showAlert(viewController: self, message: error.localizedDescription, title: "Error")
+    func displayError(error: Error, title:String = "Error",  handler: ((UIAlertAction) -> Void)? = nil) {
+        Helpers.ViewHelpers.showAlert(viewController: self, message: error.localizedDescription, title: "Error", handler: handler)
     }
 }
 

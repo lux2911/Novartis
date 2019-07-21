@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "4rb-zg-Xwr"; */
+"4rb-zg-Xwr.normalTitle" = "Send";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu"; ObjectID = "5NH-w5-XZF"; */
+"5NH-w5-XZF.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu";
+
+/* Class = "UIButton"; normalTitle = "New User"; ObjectID = "JXd-av-74O"; */
+"JXd-av-74O.normalTitle" = "New User";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "LcO-Yy-6gT"; */
+"LcO-Yy-6gT.text" = "Email";
+
+/* Class = "UILabel"; text = "I have read and agree with the terms and conditions."; ObjectID = "NN4-qi-RH8"; */
+"NN4-qi-RH8.text" = "I have read and agree with the terms and conditions.";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "OqR-yd-dl2"; */
+"OqR-yd-dl2.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Date of birth"; ObjectID = "fh2-5l-kwd"; */
+"fh2-5l-kwd.text" = "Date of birth";
+
+/* Class = "UILabel"; text = "Country of residence"; ObjectID = "hPx-eA-qtx"; */
+"hPx-eA-qtx.text" = "Country of residence";
+
+/* Class = "UILabel"; text = "Invitation Code"; ObjectID = "qBh-c9-4e2"; */
+"qBh-c9-4e2.text" = "Invitation Code";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "txR-BK-0ic"; */
+"txR-BK-0ic.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "ueC-Kd-wue"; */
+"ueC-Kd-wue.text" = "Full Name";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "xaV-rQ-WTr"; */
+"xaV-rQ-WTr.normalTitle" = "Login";
