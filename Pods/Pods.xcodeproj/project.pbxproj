@@ -14,7 +14,7 @@
 		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A5EC8ECA18DFAB33B69FF69D61CDB /* Alamofire.swift */; };
 		0BAF2689B7C3B5EBB3C28A8D0B96F502 /* _ObjectiveAuthenticationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D805B520399991B65141FB31B642DAA2 /* _ObjectiveAuthenticationAPI.swift */; };
 		0D69B288E3DF9EC529ED53D58993D261 /* Management.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA8D161DC67B96AFEA164669C584B65 /* Management.swift */; };
-		14624D05B186ED0C6837CA7FFB7A40AE /* Pods-NovartisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 187241DBCEE535547837B74D118B484E /* Pods-NovartisTests-dummy.m */; };
+		14624D05B186ED0C6837CA7FFB7A40AE /* Pods-NovartisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B07D0AB38E8D11DF3BE2363B4FB212A /* Pods-NovartisTests-dummy.m */; };
 		146DB6CD4E0C24807716DF21BEC65291 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2022CA3235600F00A9FDD379AC8ED /* Result.swift */; };
 		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1415DB56B6137E24362DB432B2E8D799 /* Notifications.swift */; };
 		1EF5B6F0A0FE4CE3657C0C4BE28BC48C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */; };
@@ -24,8 +24,8 @@
 		2CDCDAF8532BD25895575D799C6D6D23 /* UserPatchAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA190E8DAF6AB910C29EAE54A40BEC16 /* UserPatchAttributes.swift */; };
 		2D7798921216EB918BB3111009021E99 /* Auth0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54988D8F21D0B257069B401C9762AAB /* Auth0-dummy.m */; };
 		2D9DC83032469EC9A2AECC425A94B805 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3393E04A3D1BF7A630DD58FB5296060 /* SVIndefiniteAnimatedView.m */; };
-		2EA706AA8A244308E5959E1571AC01D6 /* Pods-Novartis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55416B9785C045488DFAA466CD271BA /* Pods-Novartis-dummy.m */; };
-		2F060CC3A9A974A20A4CF9ED7CF00224 /* Pods-NovartisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6C652A111DE11AFDFDE2FF83F258BB /* Pods-NovartisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EA706AA8A244308E5959E1571AC01D6 /* Pods-Novartis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2205E54206D374039479E528D030C615 /* Pods-Novartis-dummy.m */; };
+		2F060CC3A9A974A20A4CF9ED7CF00224 /* Pods-NovartisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 708E4D5416081E5F6E442A71C0C0ADCB /* Pods-NovartisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30B4D1C14188E904B707CB0C5797857E /* CredentialsManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6DC1665F1BED6AF9453449F341E1E5 /* CredentialsManagerError.swift */; };
 		315C3AF16DE36CF86A2E9FAC231E97DD /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77221B108F55B213817D660B154EA59C /* Loggable.swift */; };
 		34327D4D760B9D0C759C1B98F459326E /* A0ChallengeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7336FA8C1184F906C6F7EDC4B11343 /* A0ChallengeGenerator.m */; };
@@ -56,7 +56,7 @@
 		6E995257C806D4D16B9ECEAE133E279C /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E6DB03CD29D69C4082A3E3E07E7815 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019655919576BE73FBFE80B4AF9E8FB /* ResponseSerialization.swift */; };
 		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF311256A0959A9AB83993E448DC4569 /* ParameterEncoding.swift */; };
-		724B291155CF3D6A13094C7EA5A8D57F /* Pods-NovartisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE3DFDBDE1C94012AFFF3F68071B9C0 /* Pods-NovartisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724B291155CF3D6A13094C7EA5A8D57F /* Pods-NovartisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C9834B45DB9D423851EFB121D201B9 /* Pods-NovartisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36DB5E9A87175144204DE6ED779DF9 /* NetworkReachabilityManager.swift */; };
 		75465D3E3E9D72FE1505DF41BF5E58A5 /* A0ChallengeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 765643D5BE778FD593CEB7768C6C2B0E /* A0ChallengeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76928BBAAB9196F9E02D6A4CA31D8700 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C8EF816DD47C284188DD147A5166A4 /* SafariServices.framework */; };
@@ -77,6 +77,7 @@
 		89924167915AEC478B35BA1995474418 /* NSURLComponents+OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9D13E117E65F431AAFB0AEA7B74B8 /* NSURLComponents+OAuth2.swift */; };
 		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5099ADAAD05522154FEDD0D1838CA5 /* ServerTrustPolicy.swift */; };
 		8E76E70FB2A9B7C51DE7D97921C411BD /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D26282EC4EAE5FC4CDFF7A9F6746398 /* Response.swift */; };
+		8F50DF74DC6A18E7D7EE8553050E399A /* Pods-Novartis Germany-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 166362A07F5D6B0ED3740DC0F3ED92B5 /* Pods-Novartis Germany-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90015E19F66DF35D3BF298A92649CD66 /* A0SimpleKeychain+KeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1366A65E77B9AFB54EA21E235800FD /* A0SimpleKeychain+KeyPair.m */; };
 		96F0FE606D53294867D9D3823D5B91DF /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8D1C736E72323CFB13F297C36EECAB /* ResponseType.swift */; };
 		9D279CF890CDDC6FCBBEB7688C55D3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */; };
@@ -95,11 +96,11 @@
 		BA0912D93368F3E15B162B7A8663577B /* Auth0Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C96B6E74D6578FB8CD895C440D96C10 /* Auth0Authentication.swift */; };
 		C8C9E69A21BB076E378CDC93BD50FEC3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E92F99651A95D17C84F683AE41603F39 /* SVProgressHUD.m */; };
 		C8DAC34A7968F53DF3A48EAE5CD237AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39475045FC146E6E54924F4620F4AA4 /* QuartzCore.framework */; };
-		C9CCF3236814270A57AC870B793D730E /* Pods-NovartisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BAA59CD2681A20A6C0A17A1D6C52A4 /* Pods-NovartisUITests-dummy.m */; };
+		C9CCF3236814270A57AC870B793D730E /* Pods-NovartisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B324EE46509CB298FA147B48460EF7 /* Pods-NovartisUITests-dummy.m */; };
 		CE39BFBA829AC058029986F8FA7712BF /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D6C835D05EC38BD7C79621B593C748 /* Requestable.swift */; };
 		CF4B9AAE61EE1A0478EC82703EACC9AF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1FE61387D00CCF7EF740B7E191E1FA /* Profile.swift */; };
 		D01976371EC3556D39619630A2A136C8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18EA020237F7A8C8339DC23FB9E3A52 /* UserInfo.swift */; };
-		D307832F3D7667E34B9ACDC54C2934F7 /* Pods-Novartis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76CF47C9657799E94C37D89581CA049 /* Pods-Novartis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D307832F3D7667E34B9ACDC54C2934F7 /* Pods-Novartis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC0A4928497752301D5D5943694CEF2 /* Pods-Novartis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3C8FD3AD8AC1AF9A03A16B85FF08BCB /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1DFE922C11F6390591C8C173B7CAA3 /* TransactionStore.swift */; };
 		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8357BF03582FCFED3A545B01B9B7215 /* SessionManager.swift */; };
 		D540E23D4A7BBB382C153407A75EF007 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C66320CA6363A6DE8E1110A8A55C70 /* SVProgressHUD-dummy.m */; };
@@ -110,9 +111,11 @@
 		E5D69A1C1B4A829CBBC2865EF032841F /* SimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 546DEB9402785598D00DFC609853FE03 /* SimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA1614A702DD79E5CEF91E5E14604653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */; };
 		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F34F4DDD20B5549DD9774174E1BA5 /* Result.swift */; };
+		EB8DA25703D70472339837E519DB753D /* Pods-Novartis Germany-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C36F978CCD6DD0484CD8936A7A231B /* Pods-Novartis Germany-dummy.m */; };
 		EED1A47CD25F9C958ACAD2850C22D9F3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB33946F0BA8965855A93222F3230979 /* Logger.swift */; };
 		F0F27DC8E50155F4E7867139A591BCA0 /* NativeAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC785B55E19E4B15216F5B23E58632A /* NativeAuth.swift */; };
 		F25619AE768BACF626922D730102D875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */; };
+		F364B3231AB3E0537D77B59E0A1E5F9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */; };
 		F44163A660DDF323E6D48ABC552D154E /* Auth0Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = D690CB8B3DA4578D952C63CDE4AD5683 /* Auth0Error.swift */; };
 		FA996165542389E8AB1521ABF09E0D1F /* _ObjectiveWebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E214DEA2627EF130A0B12A3D87BCFA /* _ObjectiveWebAuth.swift */; };
 /* End PBXBuildFile section */
@@ -139,12 +142,33 @@
 			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
 			remoteInfo = Alamofire;
 		};
+		96E766F456ED7DBB21866C0FF75BFC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE2EEAADC79CDE776D226603A54ADAD8;
+			remoteInfo = SVProgressHUD;
+		};
 		A52D628AA63383E19BBA2C058EF7F4E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 83980CA420BF86A3C642F318109A387D;
 			remoteInfo = "Pods-Novartis";
+		};
+		A52FD1C1DB7E75921A5994FF76B0857C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A8675CA69EB54C341552FFA49ECB26;
+			remoteInfo = SimpleKeychain;
+		};
+		AA277EE6CBD628F2A330F435D2D6EF54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
+			remoteInfo = Alamofire;
 		};
 		BD4DAD29C629C60851961CD6DB5008EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -167,6 +191,13 @@
 			remoteGlobalIDString = 61A8675CA69EB54C341552FFA49ECB26;
 			remoteInfo = SimpleKeychain;
 		};
+		FFA00FE6E0E1C571DDF6A9B115056D7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4CE40D56D9FD503276EA88625B0981;
+			remoteInfo = Auth0;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -177,74 +208,84 @@
 		0474DB595E2E8594919505691A72278B /* WebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuth.swift; path = Auth0/WebAuth.swift; sourceTree = "<group>"; };
 		04A2022CA3235600F00A9FDD379AC8ED /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Auth0/Result.swift; sourceTree = "<group>"; };
 		05EB563B0D0AF61B781C8D042119BDE9 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Auth0/Date.swift; sourceTree = "<group>"; };
+		071D2A98AD6850C6E8913F4197A47B12 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		074084207CECC500CB1E20F06F980307 /* SafariAuthenticationSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariAuthenticationSession.swift; path = Auth0/SafariAuthenticationSession.swift; sourceTree = "<group>"; };
+		0A1C30F67FFF9F25CD42A5E9B21D1E9A /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleKeychain.framework; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A36DB5E9A87175144204DE6ED779DF9 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		0BABF659542C69ED40A480C2D6AC8F86 /* Pods-Novartis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis-acknowledgements.plist"; sourceTree = "<group>"; };
 		0BECA90672577613B4248628B84BE2E8 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		0F1FE61387D00CCF7EF740B7E191E1FA /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Auth0/Profile.swift; sourceTree = "<group>"; };
 		0F2A43EA3EDFC501049C9F11B1F142F4 /* SimpleKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SimpleKeychain.modulemap; sourceTree = "<group>"; };
+		0F36729663B213D108D63A69CED5D7D4 /* Pods-Novartis Germany.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis Germany.release.xcconfig"; sourceTree = "<group>"; };
 		11F625316057CEB9D95DBAAC9E0E9F96 /* Auth0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auth0.xcconfig; sourceTree = "<group>"; };
 		1415DB56B6137E24362DB432B2E8D799 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		166362A07F5D6B0ED3740DC0F3ED92B5 /* Pods-Novartis Germany-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Novartis Germany-umbrella.h"; sourceTree = "<group>"; };
 		1716BA224EEF0B2831379D92C25C394B /* SimpleKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-umbrella.h"; sourceTree = "<group>"; };
 		17BB9A41462A363692E89B0AEFA1D9F4 /* Auth0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-prefix.pch"; sourceTree = "<group>"; };
-		187241DBCEE535547837B74D118B484E /* Pods-NovartisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NovartisTests-dummy.m"; sourceTree = "<group>"; };
 		197F34F4DDD20B5549DD9774174E1BA5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		1AD6D1C4CF50A64F034D5636EBF500E7 /* SafariSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariSession.swift; path = Auth0/SafariSession.swift; sourceTree = "<group>"; };
 		1AD9FF0095A05312AFE713079DDDCD66 /* SafariWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariWebAuth.swift; path = Auth0/SafariWebAuth.swift; sourceTree = "<group>"; };
 		1D3D8DD11CD4AABB7A196101CF04AFC5 /* NSError+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSError+Helper.swift"; path = "Auth0/NSError+Helper.swift"; sourceTree = "<group>"; };
 		1E060C16B3BF6F5106DA73099A2196DE /* SilentSafariViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilentSafariViewController.swift; path = Auth0/SilentSafariViewController.swift; sourceTree = "<group>"; };
+		21ABA643FDEFCF3394FD0304837C232D /* Pods-Novartis Germany-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis Germany-acknowledgements.plist"; sourceTree = "<group>"; };
+		2205E54206D374039479E528D030C615 /* Pods-Novartis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Novartis-dummy.m"; sourceTree = "<group>"; };
+		22D054C68D680CEF140C3BCFBD04ADE4 /* Pods-NovartisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NovartisTests.modulemap"; sourceTree = "<group>"; };
 		24EF423EFBFFD4CF02FA642430F9DD20 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		25215CFB88E98E1CA6D4AEC656BB2841 /* AuthProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthProvider.swift; path = Auth0/AuthProvider.swift; sourceTree = "<group>"; };
+		25335C328626FAFFD85485E79042C476 /* Pods-NovartisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		255860FFA5E7E28D079911738DC0DC27 /* Pods-Novartis Germany-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Novartis Germany-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29B7FF9B8E5D9ECD58B2756B6AED57AF /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		2AE7E8A12D258CF1987E5D7519195B3D /* Pods-NovartisUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisUITests-Info.plist"; sourceTree = "<group>"; };
 		2BA8D161DC67B96AFEA164669C584B65 /* Management.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Management.swift; path = Auth0/Management.swift; sourceTree = "<group>"; };
-		2C4940BE9CCEE68E7BA19B433D6D6092 /* Pods-NovartisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2C56C7C9B6661EDFB6AC8F1F015883A8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		2D5B0F5BF871307FD84C1E8E3DD98688 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		326EBE31EFE034AF2671CA141CFBA550 /* Pods-NovartisTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisTests-Info.plist"; sourceTree = "<group>"; };
+		2DF6F72BB545CFCDE4DA4B966FFC4F6C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34942667A1BB24B1F7262CCB479C6F37 /* Pods-Novartis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Novartis-acknowledgements.markdown"; sourceTree = "<group>"; };
 		390717E1B8E654E5579282583A00BF87 /* Auth0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Auth0.h; path = Auth0/Auth0.h; sourceTree = "<group>"; };
+		39BD358EBD206DE2A9FC2435BC0A1A01 /* Pods-NovartisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AC0A4928497752301D5D5943694CEF2 /* Pods-Novartis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Novartis-umbrella.h"; sourceTree = "<group>"; };
 		3C96B6E74D6578FB8CD895C440D96C10 /* Auth0Authentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Authentication.swift; path = Auth0/Auth0Authentication.swift; sourceTree = "<group>"; };
+		3CB40AD0FA699607AC9BF4F700B00124 /* Pods-NovartisTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisTests-Info.plist"; sourceTree = "<group>"; };
 		3D96C1C750DF6EAE9BBD2C8C2BD175DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E37199E467CADF5DC6C0B706A92F4AA /* A0SimpleKeychain+KeyPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "A0SimpleKeychain+KeyPair.h"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.h"; sourceTree = "<group>"; };
 		3F457D5EE72A10A7575EFFA0E4AB267A /* Handlers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handlers.swift; path = Auth0/Handlers.swift; sourceTree = "<group>"; };
+		3FD42BF1E47AB86F4F8068C1329B1A7F /* Pods-Novartis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Novartis.modulemap"; sourceTree = "<group>"; };
 		42435790872B4F9E5E95197CB423C1B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4773A7C7A17FF52BBB9EEA1968E4FEC3 /* Pods-Novartis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Novartis-acknowledgements.markdown"; sourceTree = "<group>"; };
 		496CB11E7CD17D00C918A7E228039F92 /* SimpleKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleKeychain.xcconfig; sourceTree = "<group>"; };
+		4A1E73F2E48D03426C570DCE3EAEFA91 /* Pods-Novartis Germany.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis Germany.debug.xcconfig"; sourceTree = "<group>"; };
 		4B164D2114B39FDE5D166B266E1785CC /* AuthSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthSession.swift; path = Auth0/AuthSession.swift; sourceTree = "<group>"; };
-		4E1C1BDE905A6FB4D8D91377B87E03D3 /* Pods-Novartis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis.debug.xcconfig"; sourceTree = "<group>"; };
+		4C7C6121D66367893DABF13121561EF7 /* Pods-Novartis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis-Info.plist"; sourceTree = "<group>"; };
 		4E305E376FE20F15A51514B534C65599 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		52C40458420277F240C5AD19AF43BDD0 /* Pods-NovartisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NovartisUITests.modulemap"; sourceTree = "<group>"; };
 		546DEB9402785598D00DFC609853FE03 /* SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleKeychain.h; path = SimpleKeychain/SimpleKeychain.h; sourceTree = "<group>"; };
+		5685E03752585902A49F7B255B308B73 /* Pods-NovartisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NovartisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58087850FC546C9E24E35DB00547CFDE /* Pods_NovartisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NovartisTests.framework; path = "Pods-NovartisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB59DD9656880AA759252B314C41EA1 /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE2F2818C8367EE4AD643B8AAEC1091 /* Pods-NovartisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D26282EC4EAE5FC4CDFF7A9F6746398 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Auth0/Response.swift; sourceTree = "<group>"; };
 		5DAB4274F63F8AE191AF60F0245E5889 /* _ObjectiveManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveManagementAPI.swift; path = Auth0/_ObjectiveManagementAPI.swift; sourceTree = "<group>"; };
 		62E98BE905221744743A449BE907E13E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Auth0/Request.swift; sourceTree = "<group>"; };
 		64FE5FC88A70A3621CA557268AF5AFEC /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identity.swift; path = Auth0/Identity.swift; sourceTree = "<group>"; };
 		691BC735411337FCADD6DC91B53858C3 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		6B07D0AB38E8D11DF3BE2363B4FB212A /* Pods-NovartisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NovartisTests-dummy.m"; sourceTree = "<group>"; };
 		6B1DFE922C11F6390591C8C173B7CAA3 /* TransactionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionStore.swift; path = Auth0/TransactionStore.swift; sourceTree = "<group>"; };
-		6B53871776AEE23F1CCF70E9E2517582 /* Pods-NovartisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NovartisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6C6DC1665F1BED6AF9453449F341E1E5 /* CredentialsManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManagerError.swift; path = Auth0/CredentialsManagerError.swift; sourceTree = "<group>"; };
+		6CCAAB66DF7A9439574A1A3C59888257 /* Pods_Novartis_Germany.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Novartis_Germany.framework; path = "Pods-Novartis Germany.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8D1C736E72323CFB13F297C36EECAB /* ResponseType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseType.swift; path = Auth0/ResponseType.swift; sourceTree = "<group>"; };
-		72EECFD131F1788F707ACC683FBCFDF5 /* Pods_NovartisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NovartisTests.framework; path = "Pods-NovartisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		736855134A80887E72570CB311AA6FD2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		749B90920517F0B7FA540CFE633CBFDD /* Pods-NovartisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		759680DC172533810879FD0DAB9F7614 /* Pods-Novartis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis-Info.plist"; sourceTree = "<group>"; };
+		6F62207274797F21A9545FDAE0D7275B /* Pods-NovartisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		708E4D5416081E5F6E442A71C0C0ADCB /* Pods-NovartisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NovartisUITests-umbrella.h"; sourceTree = "<group>"; };
 		765643D5BE778FD593CEB7768C6C2B0E /* A0ChallengeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0ChallengeGenerator.h; path = Auth0/A0ChallengeGenerator.h; sourceTree = "<group>"; };
 		77221B108F55B213817D660B154EA59C /* Loggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggable.swift; path = Auth0/Loggable.swift; sourceTree = "<group>"; };
 		787A46D6993FF5639460CB39BEDF3DDA /* WebAuthError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebAuthError.swift; path = Auth0/WebAuthError.swift; sourceTree = "<group>"; };
+		7A84B539D666072A9AE5F1CF72363885 /* Pods-Novartis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Novartis-frameworks.sh"; sourceTree = "<group>"; };
 		7B6E8F83CAD3F93B24E0E39EBD0BDA2A /* A0SimpleKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SimpleKeychain.m; path = SimpleKeychain/A0SimpleKeychain.m; sourceTree = "<group>"; };
-		7D99E431F54FB7F40AEA6C22C49332F2 /* Pods-Novartis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Novartis.modulemap"; sourceTree = "<group>"; };
 		7DDEE9DDC1E1EC1239BE9650B5F2B9DB /* ManagementError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagementError.swift; path = Auth0/ManagementError.swift; sourceTree = "<group>"; };
 		7EAA5ECA30F6AB5D88C2C532D3C90AFD /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		7FA64F51C8FFA9A3501C4AE9FFD7E598 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		818DBAE1C1D45A0B0AD893F0F31D7E3C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		81E493E8A4467817C4882273E25BD622 /* Pods-Novartis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis.release.xcconfig"; sourceTree = "<group>"; };
 		820F7C197FD895DF67E70399336F605F /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		8588281F8952382DFD1E88C4154939BB /* Telemetry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Telemetry.swift; path = Auth0/Telemetry.swift; sourceTree = "<group>"; };
 		878AD6B858CA485DA1215727F2DCF5A1 /* SimpleKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleKeychain-dummy.m"; sourceTree = "<group>"; };
-		89BAA59CD2681A20A6C0A17A1D6C52A4 /* Pods-NovartisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NovartisUITests-dummy.m"; sourceTree = "<group>"; };
 		8E5099ADAAD05522154FEDD0D1838CA5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		8E6C652A111DE11AFDFDE2FF83F258BB /* Pods-NovartisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NovartisUITests-umbrella.h"; sourceTree = "<group>"; };
-		906703F55995168A1DDE4981698EBF1E /* Pods-NovartisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NovartisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		900419F38A39C4809D7BAF932A767FA4 /* Pods-Novartis Germany-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis Germany-Info.plist"; sourceTree = "<group>"; };
+		9196C1B352D0CAD6C826228DEC853B7F /* Pods-Novartis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis.debug.xcconfig"; sourceTree = "<group>"; };
 		92328BFDEC02CF1193AF604F910F03BF /* CredentialsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CredentialsManager.swift; path = Auth0/CredentialsManager.swift; sourceTree = "<group>"; };
 		92D6C835D05EC38BD7C79621B593C748 /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = Auth0/Requestable.swift; sourceTree = "<group>"; };
 		97E6DB03CD29D69C4082A3E3E07E7815 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
@@ -253,6 +294,7 @@
 		9F14AA785419DF7E320C8650836D43D8 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		9F1FC59C10F21B1AF6C2EE9B9B9327B4 /* SimpleKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleKeychain-Info.plist"; sourceTree = "<group>"; };
 		9F5B68A9CF8DA7C3D0C5A88BEE07F5CA /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		A0E8BC55F60C08C983DFDB30AB71E5D8 /* Pods-Novartis Germany.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Novartis Germany.modulemap"; sourceTree = "<group>"; };
 		A1F47FC0955DD9DDDBC1A61BACE9F144 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A1FCC8E18FA59C2C878F0DD2CFB62FDA /* SafariAuthenticationCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SafariAuthenticationCallback.swift; path = Auth0/SafariAuthenticationCallback.swift; sourceTree = "<group>"; };
 		A2233BBC22D658984BF48848E7B98075 /* AuthenticationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationError.swift; path = Auth0/AuthenticationError.swift; sourceTree = "<group>"; };
@@ -260,19 +302,21 @@
 		A33564DBD42477BADA08FB4F8C2FF1E2 /* ControllerModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControllerModalPresenter.swift; path = Auth0/ControllerModalPresenter.swift; sourceTree = "<group>"; };
 		A39475045FC146E6E54924F4620F4AA4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A3FA2450253422E15F93EA8B4DED1E4C /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		A441809079057FCADBE5E68C667F8FA4 /* Pods-NovartisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8C36F978CCD6DD0484CD8936A7A231B /* Pods-Novartis Germany-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Novartis Germany-dummy.m"; sourceTree = "<group>"; };
 		A8D2B7867995E5CD8DAA991BDD4D16B6 /* NSURL+Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURL+Auth0.swift"; path = "Auth0/NSURL+Auth0.swift"; sourceTree = "<group>"; };
-		AA51963E4600FBD681AC95A0DC08751A /* Pods-NovartisUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisUITests-Info.plist"; sourceTree = "<group>"; };
 		AB7FE615166E51BB97B4F54B93A3ABD8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		AD6A30C88A673AD4F88ACC5054A12BD8 /* Credentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Credentials.swift; path = Auth0/Credentials.swift; sourceTree = "<group>"; };
-		AFF2D510B381E59A8DBCBA5E6E50C4B6 /* Auth0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Auth0.framework; path = Auth0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B324EE46509CB298FA147B48460EF7 /* Pods-NovartisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NovartisUITests-dummy.m"; sourceTree = "<group>"; };
 		B0E214DEA2627EF130A0B12A3D87BCFA /* _ObjectiveWebAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveWebAuth.swift; path = Auth0/_ObjectiveWebAuth.swift; sourceTree = "<group>"; };
-		B55416B9785C045488DFAA466CD271BA /* Pods-Novartis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Novartis-dummy.m"; sourceTree = "<group>"; };
+		B212103F0D35EA4FA5A71E083547C471 /* Pods_Novartis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Novartis.framework; path = "Pods-Novartis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CF2FDBEB7D23DEA56E164134281EE2 /* Pods-NovartisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NovartisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3917E817290313D9BE6472BB48D816B /* Pods-NovartisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8E9D13E117E65F431AAFB0AEA7B74B8 /* NSURLComponents+OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLComponents+OAuth2.swift"; path = "Auth0/NSURLComponents+OAuth2.swift"; sourceTree = "<group>"; };
 		BD960932EBF9C7AF17CF42871CC69E28 /* Auth0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Auth0-Info.plist"; sourceTree = "<group>"; };
 		BEB769C9565A8AFBD3A404AB9DEF5659 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		BF2B022311F75CBEBA75A87BE554B10D /* Pods-Novartis Germany-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Novartis Germany-frameworks.sh"; sourceTree = "<group>"; };
+		BF579FD539DE7C8A635713544FABCF77 /* Pods-NovartisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NovartisUITests.modulemap"; sourceTree = "<group>"; };
 		BFAEE25F660FC72889D1F451BB99E926 /* BioAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioAuthentication.swift; path = Auth0/BioAuthentication.swift; sourceTree = "<group>"; };
-		C101AC594DE2DD032DC80E9D4A2971BD /* SimpleKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleKeychain.framework; path = SimpleKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18EA020237F7A8C8339DC23FB9E3A52 /* UserInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserInfo.swift; path = Auth0/UserInfo.swift; sourceTree = "<group>"; };
 		C3393E04A3D1BF7A630DD58FB5296060 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		C3397751E3AD0C83EE016B7C9FF76837 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
@@ -280,40 +324,37 @@
 		C54988D8F21D0B257069B401C9762AAB /* Auth0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auth0-dummy.m"; sourceTree = "<group>"; };
 		C696520433F5346BC839D256C26961D6 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		C69A5EC8ECA18DFAB33B69FF69D61CDB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C9C3E329FDFBDA03003A97FF177F2A23 /* Pods-Novartis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Novartis.release.xcconfig"; sourceTree = "<group>"; };
+		CB08355E1CCDE890461E628051E4E438 /* Pods-NovartisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NovartisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CCC785B55E19E4B15216F5B23E58632A /* NativeAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeAuth.swift; path = Auth0/NativeAuth.swift; sourceTree = "<group>"; };
-		CD66E56A374C958AB5A960E4C996CCF9 /* Pods-Novartis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Novartis-frameworks.sh"; sourceTree = "<group>"; };
 		CDD4D68A4E9415A9DA4D5333C232BD5F /* A0SimpleKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = A0SimpleKeychain.h; path = SimpleKeychain/A0SimpleKeychain.h; sourceTree = "<group>"; };
 		CF311256A0959A9AB83993E448DC4569 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		CF75F8A62F99F68197DE3AC70F275AAC /* AuthTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthTransaction.swift; path = Auth0/AuthTransaction.swift; sourceTree = "<group>"; };
+		D0A1F3180CA13A95AE0E4A8AF040D3D5 /* Pods_NovartisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NovartisUITests.framework; path = "Pods-NovartisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33675DFDFE662B9CB7834E6C2E4CD06 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		D5C66320CA6363A6DE8E1110A8A55C70 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		D690CB8B3DA4578D952C63CDE4AD5683 /* Auth0Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0Error.swift; path = Auth0/Auth0Error.swift; sourceTree = "<group>"; };
 		D805B520399991B65141FB31B642DAA2 /* _ObjectiveAuthenticationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ObjectiveAuthenticationAPI.swift; path = Auth0/_ObjectiveAuthenticationAPI.swift; sourceTree = "<group>"; };
 		D8357BF03582FCFED3A545B01B9B7215 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		DD3A4308B02F9B3F25AEA2AB1AEE5501 /* Pods-NovartisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NovartisTests.modulemap"; sourceTree = "<group>"; };
+		D88A5DE7E470A2D55057409B08421606 /* Auth0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Auth0.framework; path = Auth0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A12E8736D41B644485808149DE8FBC /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		E0E8EED435E6174AC8E859A810B01B1C /* Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0.swift; path = Auth0/Auth0.swift; sourceTree = "<group>"; };
-		E119F3603785CDD5C442281F7AE9CAEE /* Pods_Novartis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Novartis.framework; path = "Pods-Novartis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A235DBCB9E1DDE695E9FC7B66D19A8 /* OAuth2Grant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Grant.swift; path = Auth0/OAuth2Grant.swift; sourceTree = "<group>"; };
 		E30CA8B834A353D02E9C139F2AFC1DD1 /* SimpleKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleKeychain-prefix.pch"; sourceTree = "<group>"; };
 		E33F26477103283432E09EA0D5D8D2CD /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		E3C9834B45DB9D423851EFB121D201B9 /* Pods-NovartisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NovartisTests-umbrella.h"; sourceTree = "<group>"; };
 		E418E003E7DAEA267F37CD7B78A3D3FA /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		E46EB2F977FE12329792AD830A1619B8 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		E59B144DAFC82AF6C842E50B5E3D1FF2 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		E76CF47C9657799E94C37D89581CA049 /* Pods-Novartis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Novartis-umbrella.h"; sourceTree = "<group>"; };
 		E92F99651A95D17C84F683AE41603F39 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		EB33946F0BA8965855A93222F3230979 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Auth0/Logger.swift; sourceTree = "<group>"; };
 		EE5E37ADE791E32DB99AABE039538960 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		EE64F09583D90713741D649378256090 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		EFE3DFDBDE1C94012AFFF3F68071B9C0 /* Pods-NovartisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NovartisTests-umbrella.h"; sourceTree = "<group>"; };
-		F24CE202D2CCB1031E294DB344204AD1 /* Pods-NovartisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6E7F4503851362AFFF2A6C32C839152 /* Pods-NovartisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisTests.release.xcconfig"; sourceTree = "<group>"; };
-		F88E6FF10F13DB0D280B471F3F7BF58D /* Pods_NovartisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NovartisUITests.framework; path = "Pods-NovartisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A6776ACF6B853FD153AEC1A1A5A047 /* Pods-Novartis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Novartis-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA190E8DAF6AB910C29EAE54A40BEC16 /* UserPatchAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPatchAttributes.swift; path = Auth0/UserPatchAttributes.swift; sourceTree = "<group>"; };
 		FC7336FA8C1184F906C6F7EDC4B11343 /* A0ChallengeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0ChallengeGenerator.m; path = Auth0/A0ChallengeGenerator.m; sourceTree = "<group>"; };
 		FEBB4FD388BC474604B6043AD021D802 /* Auth0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auth0-umbrella.h"; sourceTree = "<group>"; };
 		FED67446C2B18A996092F796C25791AF /* Auth0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Auth0.modulemap; sourceTree = "<group>"; };
-		FEE0D37D84D1A88A22914A7B2AE24B53 /* Pods-NovartisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NovartisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF1366A65E77B9AFB54EA21E235800FD /* A0SimpleKeychain+KeyPair.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "A0SimpleKeychain+KeyPair.m"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -344,6 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1614A702DD79E5CEF91E5E14604653 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC837CD1E423F8B1894C1AF584E5E41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F364B3231AB3E0537D77B59E0A1E5F9C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +445,22 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		1B8F40FBCAA8412B6ADD6536F7C6C2EB /* Pods-NovartisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF579FD539DE7C8A635713544FABCF77 /* Pods-NovartisUITests.modulemap */,
+				5685E03752585902A49F7B255B308B73 /* Pods-NovartisUITests-acknowledgements.markdown */,
+				CB08355E1CCDE890461E628051E4E438 /* Pods-NovartisUITests-acknowledgements.plist */,
+				B0B324EE46509CB298FA147B48460EF7 /* Pods-NovartisUITests-dummy.m */,
+				2AE7E8A12D258CF1987E5D7519195B3D /* Pods-NovartisUITests-Info.plist */,
+				708E4D5416081E5F6E442A71C0C0ADCB /* Pods-NovartisUITests-umbrella.h */,
+				6F62207274797F21A9545FDAE0D7275B /* Pods-NovartisUITests.debug.xcconfig */,
+				25335C328626FAFFD85485E79042C476 /* Pods-NovartisUITests.release.xcconfig */,
+			);
+			name = "Pods-NovartisUITests";
+			path = "Target Support Files/Pods-NovartisUITests";
+			sourceTree = "<group>";
+		};
 		2AEC40E4D633AC6FA6FD902400CF745D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -404,18 +469,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		32E238C6EC18F3C154D68A1C433761AE /* Products */ = {
+		338553D796365CA73D92747248B67161 /* Pods-NovartisTests */ = {
 			isa = PBXGroup;
 			children = (
-				736855134A80887E72570CB311AA6FD2 /* Alamofire.framework */,
-				AFF2D510B381E59A8DBCBA5E6E50C4B6 /* Auth0.framework */,
-				E119F3603785CDD5C442281F7AE9CAEE /* Pods_Novartis.framework */,
-				72EECFD131F1788F707ACC683FBCFDF5 /* Pods_NovartisTests.framework */,
-				F88E6FF10F13DB0D280B471F3F7BF58D /* Pods_NovartisUITests.framework */,
-				C101AC594DE2DD032DC80E9D4A2971BD /* SimpleKeychain.framework */,
-				7FA64F51C8FFA9A3501C4AE9FFD7E598 /* SVProgressHUD.framework */,
+				22D054C68D680CEF140C3BCFBD04ADE4 /* Pods-NovartisTests.modulemap */,
+				B2CF2FDBEB7D23DEA56E164134281EE2 /* Pods-NovartisTests-acknowledgements.markdown */,
+				39BD358EBD206DE2A9FC2435BC0A1A01 /* Pods-NovartisTests-acknowledgements.plist */,
+				6B07D0AB38E8D11DF3BE2363B4FB212A /* Pods-NovartisTests-dummy.m */,
+				3CB40AD0FA699607AC9BF4F700B00124 /* Pods-NovartisTests-Info.plist */,
+				E3C9834B45DB9D423851EFB121D201B9 /* Pods-NovartisTests-umbrella.h */,
+				B3917E817290313D9BE6472BB48D816B /* Pods-NovartisTests.debug.xcconfig */,
+				5CE2F2818C8367EE4AD643B8AAEC1091 /* Pods-NovartisTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-NovartisTests";
+			path = "Target Support Files/Pods-NovartisTests";
 			sourceTree = "<group>";
 		};
 		39F978BC0328380BBC793CD0FA1D41AE /* Pods */ = {
@@ -427,6 +494,17 @@
 				77A1D1279FBA8997476F1C454764D38F /* SVProgressHUD */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		49A113043298C75842248059D42D7D3B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2AFEB6D738091C2197596E42BE3021 /* Pods-Novartis */,
+				5E63E0645C0C999CEBD6852E7DB8BE3F /* Pods-Novartis Germany */,
+				338553D796365CA73D92747248B67161 /* Pods-NovartisTests */,
+				1B8F40FBCAA8412B6ADD6536F7C6C2EB /* Pods-NovartisUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		55B5EA8EEB87BFEBBB67E9D3BB7B99A1 /* Auth0 */ = {
@@ -489,21 +567,36 @@
 			path = Auth0;
 			sourceTree = "<group>";
 		};
-		59584EEE4A1A26182AF07D8EAEE60A39 /* Pods-Novartis */ = {
+		5827801158C864C85A86750A999AE05B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D99E431F54FB7F40AEA6C22C49332F2 /* Pods-Novartis.modulemap */,
-				4773A7C7A17FF52BBB9EEA1968E4FEC3 /* Pods-Novartis-acknowledgements.markdown */,
-				0BABF659542C69ED40A480C2D6AC8F86 /* Pods-Novartis-acknowledgements.plist */,
-				B55416B9785C045488DFAA466CD271BA /* Pods-Novartis-dummy.m */,
-				CD66E56A374C958AB5A960E4C996CCF9 /* Pods-Novartis-frameworks.sh */,
-				759680DC172533810879FD0DAB9F7614 /* Pods-Novartis-Info.plist */,
-				E76CF47C9657799E94C37D89581CA049 /* Pods-Novartis-umbrella.h */,
-				4E1C1BDE905A6FB4D8D91377B87E03D3 /* Pods-Novartis.debug.xcconfig */,
-				81E493E8A4467817C4882273E25BD622 /* Pods-Novartis.release.xcconfig */,
+				2DF6F72BB545CFCDE4DA4B966FFC4F6C /* Alamofire.framework */,
+				D88A5DE7E470A2D55057409B08421606 /* Auth0.framework */,
+				B212103F0D35EA4FA5A71E083547C471 /* Pods_Novartis.framework */,
+				6CCAAB66DF7A9439574A1A3C59888257 /* Pods_Novartis_Germany.framework */,
+				58087850FC546C9E24E35DB00547CFDE /* Pods_NovartisTests.framework */,
+				D0A1F3180CA13A95AE0E4A8AF040D3D5 /* Pods_NovartisUITests.framework */,
+				0A1C30F67FFF9F25CD42A5E9B21D1E9A /* SimpleKeychain.framework */,
+				071D2A98AD6850C6E8913F4197A47B12 /* SVProgressHUD.framework */,
 			);
-			name = "Pods-Novartis";
-			path = "Target Support Files/Pods-Novartis";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E63E0645C0C999CEBD6852E7DB8BE3F /* Pods-Novartis Germany */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8BC55F60C08C983DFDB30AB71E5D8 /* Pods-Novartis Germany.modulemap */,
+				255860FFA5E7E28D079911738DC0DC27 /* Pods-Novartis Germany-acknowledgements.markdown */,
+				21ABA643FDEFCF3394FD0304837C232D /* Pods-Novartis Germany-acknowledgements.plist */,
+				A8C36F978CCD6DD0484CD8936A7A231B /* Pods-Novartis Germany-dummy.m */,
+				BF2B022311F75CBEBA75A87BE554B10D /* Pods-Novartis Germany-frameworks.sh */,
+				900419F38A39C4809D7BAF932A767FA4 /* Pods-Novartis Germany-Info.plist */,
+				166362A07F5D6B0ED3740DC0F3ED92B5 /* Pods-Novartis Germany-umbrella.h */,
+				4A1E73F2E48D03426C570DCE3EAEFA91 /* Pods-Novartis Germany.debug.xcconfig */,
+				0F36729663B213D108D63A69CED5D7D4 /* Pods-Novartis Germany.release.xcconfig */,
+			);
+			name = "Pods-Novartis Germany";
+			path = "Target Support Files/Pods-Novartis Germany";
 			sourceTree = "<group>";
 		};
 		68F7ABF3EF0F45FCFA0E0BE070018E80 /* SimpleKeychain */ = {
@@ -536,16 +629,6 @@
 			);
 			name = SVProgressHUD;
 			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		78A63C292716BD3F9B8B17082406EC85 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				59584EEE4A1A26182AF07D8EAEE60A39 /* Pods-Novartis */,
-				C89B8A4F025381F537C8361E82040B50 /* Pods-NovartisTests */,
-				ADB419DFAAECF810BD1D35FF8324EFD5 /* Pods-NovartisUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7972761EE88A9203D8CB8DAA4097DB72 /* Support Files */ = {
@@ -597,22 +680,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ADB419DFAAECF810BD1D35FF8324EFD5 /* Pods-NovartisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52C40458420277F240C5AD19AF43BDD0 /* Pods-NovartisUITests.modulemap */,
-				906703F55995168A1DDE4981698EBF1E /* Pods-NovartisUITests-acknowledgements.markdown */,
-				749B90920517F0B7FA540CFE633CBFDD /* Pods-NovartisUITests-acknowledgements.plist */,
-				89BAA59CD2681A20A6C0A17A1D6C52A4 /* Pods-NovartisUITests-dummy.m */,
-				AA51963E4600FBD681AC95A0DC08751A /* Pods-NovartisUITests-Info.plist */,
-				8E6C652A111DE11AFDFDE2FF83F258BB /* Pods-NovartisUITests-umbrella.h */,
-				FEE0D37D84D1A88A22914A7B2AE24B53 /* Pods-NovartisUITests.debug.xcconfig */,
-				A441809079057FCADBE5E68C667F8FA4 /* Pods-NovartisUITests.release.xcconfig */,
-			);
-			name = "Pods-NovartisUITests";
-			path = "Target Support Files/Pods-NovartisUITests";
-			sourceTree = "<group>";
-		};
 		BD31C7B7349DA67B0369916350DCCED5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,31 +720,32 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		C89B8A4F025381F537C8361E82040B50 /* Pods-NovartisTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD3A4308B02F9B3F25AEA2AB1AEE5501 /* Pods-NovartisTests.modulemap */,
-				6B53871776AEE23F1CCF70E9E2517582 /* Pods-NovartisTests-acknowledgements.markdown */,
-				2C4940BE9CCEE68E7BA19B433D6D6092 /* Pods-NovartisTests-acknowledgements.plist */,
-				187241DBCEE535547837B74D118B484E /* Pods-NovartisTests-dummy.m */,
-				326EBE31EFE034AF2671CA141CFBA550 /* Pods-NovartisTests-Info.plist */,
-				EFE3DFDBDE1C94012AFFF3F68071B9C0 /* Pods-NovartisTests-umbrella.h */,
-				F24CE202D2CCB1031E294DB344204AD1 /* Pods-NovartisTests.debug.xcconfig */,
-				F6E7F4503851362AFFF2A6C32C839152 /* Pods-NovartisTests.release.xcconfig */,
-			);
-			name = "Pods-NovartisTests";
-			path = "Target Support Files/Pods-NovartisTests";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9E701F9AC00F89386FD617E4028E353E /* Frameworks */,
 				39F978BC0328380BBC793CD0FA1D41AE /* Pods */,
-				32E238C6EC18F3C154D68A1C433761AE /* Products */,
-				78A63C292716BD3F9B8B17082406EC85 /* Targets Support Files */,
+				5827801158C864C85A86750A999AE05B /* Products */,
+				49A113043298C75842248059D42D7D3B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DA2AFEB6D738091C2197596E42BE3021 /* Pods-Novartis */ = {
+			isa = PBXGroup;
+			children = (
+				3FD42BF1E47AB86F4F8068C1329B1A7F /* Pods-Novartis.modulemap */,
+				34942667A1BB24B1F7262CCB479C6F37 /* Pods-Novartis-acknowledgements.markdown */,
+				F1A6776ACF6B853FD153AEC1A1A5A047 /* Pods-Novartis-acknowledgements.plist */,
+				2205E54206D374039479E528D030C615 /* Pods-Novartis-dummy.m */,
+				7A84B539D666072A9AE5F1CF72363885 /* Pods-Novartis-frameworks.sh */,
+				4C7C6121D66367893DABF13121561EF7 /* Pods-Novartis-Info.plist */,
+				3AC0A4928497752301D5D5943694CEF2 /* Pods-Novartis-umbrella.h */,
+				9196C1B352D0CAD6C826228DEC853B7F /* Pods-Novartis.debug.xcconfig */,
+				C9C3E329FDFBDA03003A97FF177F2A23 /* Pods-Novartis.release.xcconfig */,
+			);
+			name = "Pods-Novartis";
+			path = "Target Support Files/Pods-Novartis";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -748,9 +816,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B36793D21A9A24F7DEC62372541FF583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F50DF74DC6A18E7D7EE8553050E399A /* Pods-Novartis Germany-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0A47D6498966BD6FAC7F7FC5047EF25D /* Pods-Novartis Germany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E06D388AF3CF103A1309DF4B9CDC87 /* Build configuration list for PBXNativeTarget "Pods-Novartis Germany" */;
+			buildPhases = (
+				B36793D21A9A24F7DEC62372541FF583 /* Headers */,
+				C4BAFCF188503DAEACC5B44A59707038 /* Sources */,
+				AC837CD1E423F8B1894C1AF584E5E41F /* Frameworks */,
+				68A0C94D8F323CF4F657A83C67F494F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6E509F01B33C36EB720013652B0CB50 /* PBXTargetDependency */,
+				700CCB89F46090A578039DF161A746A5 /* PBXTargetDependency */,
+				49021174094364BA897D84EFFCCD3093 /* PBXTargetDependency */,
+				34D5C03786683B25280D34BC8EA29493 /* PBXTargetDependency */,
+			);
+			name = "Pods-Novartis Germany";
+			productName = "Pods-Novartis Germany";
+			productReference = 6CCAAB66DF7A9439574A1A3C59888257 /* Pods_Novartis_Germany.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -766,7 +864,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 736855134A80887E72570CB311AA6FD2 /* Alamofire.framework */;
+			productReference = 2DF6F72BB545CFCDE4DA4B966FFC4F6C /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		61A8675CA69EB54C341552FFA49ECB26 /* SimpleKeychain */ = {
@@ -784,7 +882,7 @@
 			);
 			name = SimpleKeychain;
 			productName = SimpleKeychain;
-			productReference = C101AC594DE2DD032DC80E9D4A2971BD /* SimpleKeychain.framework */;
+			productReference = 0A1C30F67FFF9F25CD42A5E9B21D1E9A /* SimpleKeychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		83980CA420BF86A3C642F318109A387D /* Pods-Novartis */ = {
@@ -806,7 +904,7 @@
 			);
 			name = "Pods-Novartis";
 			productName = "Pods-Novartis";
-			productReference = E119F3603785CDD5C442281F7AE9CAEE /* Pods_Novartis.framework */;
+			productReference = B212103F0D35EA4FA5A71E083547C471 /* Pods_Novartis.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B558E2141D7E148741B6E1C3CF778D1 /* Pods-NovartisUITests */ = {
@@ -825,7 +923,7 @@
 			);
 			name = "Pods-NovartisUITests";
 			productName = "Pods-NovartisUITests";
-			productReference = F88E6FF10F13DB0D280B471F3F7BF58D /* Pods_NovartisUITests.framework */;
+			productReference = D0A1F3180CA13A95AE0E4A8AF040D3D5 /* Pods_NovartisUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AE2EEAADC79CDE776D226603A54ADAD8 /* SVProgressHUD */ = {
@@ -843,7 +941,7 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 7FA64F51C8FFA9A3501C4AE9FFD7E598 /* SVProgressHUD.framework */;
+			productReference = 071D2A98AD6850C6E8913F4197A47B12 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E586C4E00DEDF545A186048883390C59 /* Pods-NovartisTests */ = {
@@ -862,7 +960,7 @@
 			);
 			name = "Pods-NovartisTests";
 			productName = "Pods-NovartisTests";
-			productReference = 72EECFD131F1788F707ACC683FBCFDF5 /* Pods_NovartisTests.framework */;
+			productReference = 58087850FC546C9E24E35DB00547CFDE /* Pods_NovartisTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB4CE40D56D9FD503276EA88625B0981 /* Auth0 */ = {
@@ -881,7 +979,7 @@
 			);
 			name = Auth0;
 			productName = Auth0;
-			productReference = AFF2D510B381E59A8DBCBA5E6E50C4B6 /* Auth0.framework */;
+			productReference = D88A5DE7E470A2D55057409B08421606 /* Auth0.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -901,13 +999,14 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 32E238C6EC18F3C154D68A1C433761AE /* Products */;
+			productRefGroup = 5827801158C864C85A86750A999AE05B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
 				FB4CE40D56D9FD503276EA88625B0981 /* Auth0 */,
 				83980CA420BF86A3C642F318109A387D /* Pods-Novartis */,
+				0A47D6498966BD6FAC7F7FC5047EF25D /* Pods-Novartis Germany */,
 				E586C4E00DEDF545A186048883390C59 /* Pods-NovartisTests */,
 				8B558E2141D7E148741B6E1C3CF778D1 /* Pods-NovartisUITests */,
 				61A8675CA69EB54C341552FFA49ECB26 /* SimpleKeychain */,
@@ -946,6 +1045,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		67E0A6509F983B235814018A34421270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A0C94D8F323CF4F657A83C67F494F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1098,6 +1204,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4BAFCF188503DAEACC5B44A59707038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8DA25703D70472339837E519DB753D /* Pods-Novartis Germany-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1113,6 +1227,18 @@
 			target = 83980CA420BF86A3C642F318109A387D /* Pods-Novartis */;
 			targetProxy = 3E09BCDE20E1672C87CD29247AE60C37 /* PBXContainerItemProxy */;
 		};
+		34D5C03786683B25280D34BC8EA29493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleKeychain;
+			target = 61A8675CA69EB54C341552FFA49ECB26 /* SimpleKeychain */;
+			targetProxy = A52FD1C1DB7E75921A5994FF76B0857C /* PBXContainerItemProxy */;
+		};
+		49021174094364BA897D84EFFCCD3093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = AE2EEAADC79CDE776D226603A54ADAD8 /* SVProgressHUD */;
+			targetProxy = 96E766F456ED7DBB21866C0FF75BFC06 /* PBXContainerItemProxy */;
+		};
 		491F9E018C98EF712F0A16C3BF76C2CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleKeychain;
@@ -1125,11 +1251,23 @@
 			target = 83980CA420BF86A3C642F318109A387D /* Pods-Novartis */;
 			targetProxy = A52D628AA63383E19BBA2C058EF7F4E5 /* PBXContainerItemProxy */;
 		};
+		700CCB89F46090A578039DF161A746A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Auth0;
+			target = FB4CE40D56D9FD503276EA88625B0981 /* Auth0 */;
+			targetProxy = FFA00FE6E0E1C571DDF6A9B115056D7F /* PBXContainerItemProxy */;
+		};
 		A0280779516C2FCB4FABAAEC09FEF75E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleKeychain;
 			target = 61A8675CA69EB54C341552FFA49ECB26 /* SimpleKeychain */;
 			targetProxy = E744955F8527BF1D4AB5565BBD1F7441 /* PBXContainerItemProxy */;
+		};
+		B6E509F01B33C36EB720013652B0CB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
+			targetProxy = AA277EE6CBD628F2A330F435D2D6EF54 /* PBXContainerItemProxy */;
 		};
 		BF39A38DBB6DFC9E382496B83691D6C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1307,7 +1445,7 @@
 		};
 		407E6A5CDD0F1AB1BE13F8E09B12E735 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6E7F4503851362AFFF2A6C32C839152 /* Pods-NovartisTests.release.xcconfig */;
+			baseConfigurationReference = 5CE2F2818C8367EE4AD643B8AAEC1091 /* Pods-NovartisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1330,6 +1468,45 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NovartisTests/Pods-NovartisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C8460F7F5A25B30C4494610D8055669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F36729663B213D108D63A69CED5D7D4 /* Pods-Novartis Germany.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1381,7 +1558,7 @@
 		};
 		6CF7E50DA83BC0682F7859C2D5F59B2F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F24CE202D2CCB1031E294DB344204AD1 /* Pods-NovartisTests.debug.xcconfig */;
+			baseConfigurationReference = B3917E817290313D9BE6472BB48D816B /* Pods-NovartisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1404,6 +1581,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NovartisTests/Pods-NovartisTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		889176CA4A8000C653F323A3AE6F1D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E73F2E48D03426C570DCE3EAEFA91 /* Pods-Novartis Germany.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1527,7 +1742,7 @@
 		};
 		A1B750590756683CF0179DED0B8C7AAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A441809079057FCADBE5E68C667F8FA4 /* Pods-NovartisUITests.release.xcconfig */;
+			baseConfigurationReference = 25335C328626FAFFD85485E79042C476 /* Pods-NovartisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1566,7 +1781,7 @@
 		};
 		B4EB4A91F63286EA58D6D6E78AEC63E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E1C1BDE905A6FB4D8D91377B87E03D3 /* Pods-Novartis.debug.xcconfig */;
+			baseConfigurationReference = 9196C1B352D0CAD6C826228DEC853B7F /* Pods-Novartis.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1604,7 +1819,7 @@
 		};
 		BD43488F81355B9900B3E9A7793EC3AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81E493E8A4467817C4882273E25BD622 /* Pods-Novartis.release.xcconfig */;
+			baseConfigurationReference = C9C3E329FDFBDA03003A97FF177F2A23 /* Pods-Novartis.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1643,7 +1858,7 @@
 		};
 		D571F09B0B72DB297D782DA054552927 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEE0D37D84D1A88A22914A7B2AE24B53 /* Pods-NovartisUITests.debug.xcconfig */;
+			baseConfigurationReference = 6F62207274797F21A9545FDAE0D7275B /* Pods-NovartisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1838,6 +2053,15 @@
 			buildConfigurations = (
 				B4EB4A91F63286EA58D6D6E78AEC63E7 /* Debug */,
 				BD43488F81355B9900B3E9A7793EC3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E06D388AF3CF103A1309DF4B9CDC87 /* Build configuration list for PBXNativeTarget "Pods-Novartis Germany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889176CA4A8000C653F323A3AE6F1D75 /* Debug */,
+				4C8460F7F5A25B30C4494610D8055669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

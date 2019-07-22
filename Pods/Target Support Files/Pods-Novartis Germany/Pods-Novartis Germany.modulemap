@@ -1,0 +1,6 @@
+framework module Pods_Novartis_Germany {
+  umbrella header "Pods-Novartis Germany-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19313DE216BAC8F0F2834348 /* Pods_Novartis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */; };
 		28083E058B38DC54BABF0ECB /* Pods_Novartis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */; };
 		5E6BD33A7BB518445B6D9C90 /* Pods_NovartisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB40B91B9E1A7859F1A2863 /* Pods_NovartisTests.framework */; };
+		642A7911FE3D20E2718FECE4 /* Pods_Novartis_Germany.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79878C75698D8D69AA7D35D /* Pods_Novartis_Germany.framework */; };
 		D576A23822E33C74001461AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A23722E33C74001461AF /* AppDelegate.swift */; };
 		D576A23D22E33C74001461AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A23B22E33C74001461AF /* Main.storyboard */; };
 		D576A23F22E33C76001461AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576A23E22E33C76001461AF /* Assets.xcassets */; };
@@ -46,7 +48,6 @@
 		D576A2B122E4F2E2001461AF /* CountryInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A28C22E3995F001461AF /* CountryInfoViewModel.swift */; };
 		D576A2B222E4F2E2001461AF /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A27622E34152001461AF /* CountryInfo.swift */; };
 		D576A2B322E4F2E2001461AF /* InvitationCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576A29A22E3CE42001461AF /* InvitationCodeLoginViewController.swift */; };
-		D576A2B522E4F2E2001461AF /* Pods_Novartis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */; };
 		D576A2B722E4F2E2001461AF /* IR.json in Resources */ = {isa = PBXBuildFile; fileRef = D576A27822E34DD9001461AF /* IR.json */; };
 		D576A2B922E4F2E2001461AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576A24022E33C76001461AF /* LaunchScreen.storyboard */; };
 		D576A2BA22E4F2E2001461AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576A23E22E33C76001461AF /* Assets.xcassets */; };
@@ -77,13 +78,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05871F7AAB65BB02E67B50D8 /* Pods-Novartis Germany.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis Germany.release.xcconfig"; path = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany.release.xcconfig"; sourceTree = "<group>"; };
+		106C6B37BAA49734C7219196 /* Pods-Novartis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis.debug.xcconfig"; path = "Target Support Files/Pods-Novartis/Pods-Novartis.debug.xcconfig"; sourceTree = "<group>"; };
+		191CDC2074921133A84F5743 /* Pods-Novartis Germany.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis Germany.debug.xcconfig"; path = "Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany.debug.xcconfig"; sourceTree = "<group>"; };
+		394F0C33137B7B2F4CD8B087 /* Pods-Novartis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis.release.xcconfig"; path = "Target Support Files/Pods-Novartis/Pods-Novartis.release.xcconfig"; sourceTree = "<group>"; };
 		3BC518793645EFCFFF3D34C6 /* Pods-NovartisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovartisUITests.debug.xcconfig"; path = "Target Support Files/Pods-NovartisUITests/Pods-NovartisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C911D8D2089DA9B250AD70D /* Pods-NovartisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovartisUITests.release.xcconfig"; path = "Target Support Files/Pods-NovartisUITests/Pods-NovartisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8FB40B91B9E1A7859F1A2863 /* Pods_NovartisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NovartisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90F555915B75BBC7C0E063D5 /* Pods-Novartis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis.debug.xcconfig"; path = "Target Support Files/Pods-Novartis/Pods-Novartis.debug.xcconfig"; sourceTree = "<group>"; };
 		A3B8994CFC96A1C556B214A7 /* Pods-NovartisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovartisTests.release.xcconfig"; path = "Target Support Files/Pods-NovartisTests/Pods-NovartisTests.release.xcconfig"; sourceTree = "<group>"; };
 		B265BE5E7A2722319DE4B5C4 /* Pods-NovartisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NovartisTests.debug.xcconfig"; path = "Target Support Files/Pods-NovartisTests/Pods-NovartisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Novartis.release.xcconfig"; path = "Target Support Files/Pods-Novartis/Pods-Novartis.release.xcconfig"; sourceTree = "<group>"; };
+		B79878C75698D8D69AA7D35D /* Pods_Novartis_Germany.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Novartis_Germany.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576A23422E33C74001461AF /* Novartis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novartis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576A23722E33C74001461AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D576A23C22E33C74001461AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28083E058B38DC54BABF0ECB /* Pods_Novartis.framework in Frameworks */,
+				19313DE216BAC8F0F2834348 /* Pods_Novartis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D576A2B522E4F2E2001461AF /* Pods_Novartis.framework in Frameworks */,
+				642A7911FE3D20E2718FECE4 /* Pods_Novartis_Germany.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +170,7 @@
 				DFE61B8D32FB3ACA40E62CBA /* Pods_Novartis.framework */,
 				8FB40B91B9E1A7859F1A2863 /* Pods_NovartisTests.framework */,
 				EAC7D96B7EEAB6F3093DBAA0 /* Pods_NovartisUITests.framework */,
+				B79878C75698D8D69AA7D35D /* Pods_Novartis_Germany.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -332,12 +338,14 @@
 		F90635BBD4E847B978BB9294 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90F555915B75BBC7C0E063D5 /* Pods-Novartis.debug.xcconfig */,
-				C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */,
 				B265BE5E7A2722319DE4B5C4 /* Pods-NovartisTests.debug.xcconfig */,
 				A3B8994CFC96A1C556B214A7 /* Pods-NovartisTests.release.xcconfig */,
 				3BC518793645EFCFFF3D34C6 /* Pods-NovartisUITests.debug.xcconfig */,
 				8C911D8D2089DA9B250AD70D /* Pods-NovartisUITests.release.xcconfig */,
+				106C6B37BAA49734C7219196 /* Pods-Novartis.debug.xcconfig */,
+				394F0C33137B7B2F4CD8B087 /* Pods-Novartis.release.xcconfig */,
+				191CDC2074921133A84F5743 /* Pods-Novartis Germany.debug.xcconfig */,
+				05871F7AAB65BB02E67B50D8 /* Pods-Novartis Germany.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -406,11 +414,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D576A2C022E4F2E2001461AF /* Build configuration list for PBXNativeTarget "Novartis Germany" */;
 			buildPhases = (
-				D576A2A322E4F2E2001461AF /* [CP] Check Pods Manifest.lock */,
+				34383F75EF746570A7406E49 /* [CP] Check Pods Manifest.lock */,
 				D576A2A422E4F2E2001461AF /* Sources */,
 				D576A2B422E4F2E2001461AF /* Frameworks */,
 				D576A2B622E4F2E2001461AF /* Resources */,
-				D576A2BF22E4F2E2001461AF /* [CP] Embed Pods Frameworks */,
+				B34510320CE7BA3BC0419C1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -514,6 +522,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		34383F75EF746570A7406E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Novartis Germany-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7CFAC8797902331AD769A7E5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,7 +616,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D576A2A322E4F2E2001461AF /* [CP] Check Pods Manifest.lock */ = {
+		B34510320CE7BA3BC0419C1B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -594,29 +624,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Novartis-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D576A2BF22E4F2E2001461AF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Novartis/Pods-Novartis-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
@@ -633,7 +641,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Novartis/Pods-Novartis-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Novartis Germany/Pods-Novartis Germany-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F768AA1EA4485FC023729F58 /* [CP] Check Pods Manifest.lock */ = {
@@ -885,7 +893,7 @@
 		};
 		D576A25D22E33C76001461AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90F555915B75BBC7C0E063D5 /* Pods-Novartis.debug.xcconfig */;
+			baseConfigurationReference = 106C6B37BAA49734C7219196 /* Pods-Novartis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -904,7 +912,7 @@
 		};
 		D576A25E22E33C76001461AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */;
+			baseConfigurationReference = 394F0C33137B7B2F4CD8B087 /* Pods-Novartis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1004,7 +1012,7 @@
 		};
 		D576A2C122E4F2E2001461AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90F555915B75BBC7C0E063D5 /* Pods-Novartis.debug.xcconfig */;
+			baseConfigurationReference = 191CDC2074921133A84F5743 /* Pods-Novartis Germany.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1023,7 +1031,7 @@
 		};
 		D576A2C222E4F2E2001461AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C781522E82E9448F2D2C920F /* Pods-Novartis.release.xcconfig */;
+			baseConfigurationReference = 05871F7AAB65BB02E67B50D8 /* Pods-Novartis Germany.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

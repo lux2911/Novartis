@@ -13,7 +13,7 @@ class CountryInfoViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var txtField: UITextField!
-    @IBOutlet weak var tableStackView: UIStackView!
+    @IBOutlet weak var containerStackView: UIStackView!
     @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var imgView2: UIImageView!
     lazy var viewModel: CountryInfoViewModel = {
@@ -28,15 +28,23 @@ class CountryInfoViewController: UIViewController {
         getCountryInfo()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        setupForOrientation(newCollection: traitCollection)
+    }
+    
     override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
-        
+        setupForOrientation(newCollection: newCollection)
+    }
+    
+    private func setupForOrientation(newCollection: UITraitCollection) {
         if newCollection.horizontalSizeClass == .regular {
             imgView2.isHidden = false
-            tableStackView.axis = .horizontal
-           
+            containerStackView.axis = .horizontal
+            
         } else {
             imgView2.isHidden = true
-            tableStackView.axis = .vertical
+            containerStackView.axis = .vertical
             
         }
     }
