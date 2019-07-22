@@ -1,0 +1,6 @@
+framework module Pods_NovartisTests {
+  umbrella header "Pods-NovartisTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
