@@ -14,11 +14,17 @@ target 'Novartis' do
   target 'NovartisTests' do
     inherit! :search_paths
     # Pods for testing
+  pod 'Auth0'
+  pod 'Alamofire'
+  pod 'SVProgressHUD'
   end
 
   target 'NovartisUITests' do
     inherit! :search_paths
     # Pods for testing
+  pod 'Auth0'
+  pod 'Alamofire'
+  pod 'SVProgressHUD'
   end
 
 end

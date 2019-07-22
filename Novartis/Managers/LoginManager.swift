@@ -85,7 +85,7 @@ class LoginManager : LoginProtocol {
         }
     }
     
-    static let shared : LoginProtocol = RestClient.shared.countryId == "IR" ? Auth0LoginManager() : LoginManager()
+    static let shared : LoginProtocol = RestClient.shared.countryId == "IR" && NSClassFromString("XCTest") == nil ? Auth0LoginManager() : LoginManager()
     static let credentialsManager = CredentialsManager(authentication: Auth0.authentication())
     
     private init() { }

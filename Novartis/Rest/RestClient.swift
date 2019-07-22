@@ -113,6 +113,7 @@ class RestClient: NovartisServiceProtocol {
 // Instance of this class will be instantiated when executing unit tests or USE_MOCK_DATA has been set
 class MockRestClient : NovartisServiceProtocol  {
     
+    
     func login(_ userName: String, pass: String, completion: @escaping RestLoginCompletionBlock) {
         completion(Result<UserData>.success(UserData(accessToken: "xxx")))
     }

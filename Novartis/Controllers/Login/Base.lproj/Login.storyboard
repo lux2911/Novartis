@@ -51,6 +51,7 @@
                             </textField>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="D0M-ty-CVP">
                                 <rect key="frame" x="335" y="341" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" identifier="PassSwitch"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaV-rQ-WTr">
                                 <rect key="frame" x="30" y="402" width="354" height="50"/>
@@ -82,6 +83,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="LoginView"/>
                         <constraints>
                             <constraint firstItem="rkT-YG-2qM" firstAttribute="trailing" secondItem="txR-BK-0ic" secondAttribute="trailing" constant="30" id="1kA-xJ-gLi"/>
                             <constraint firstItem="hC2-6V-pLo" firstAttribute="top" secondItem="rkT-YG-2qM" secondAttribute="top" constant="10" id="9a7-37-h2a"/>
@@ -256,7 +258,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invitation Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBh-c9-4e2">
-                                <rect key="frame" x="30" y="184" width="115" height="21"/>
+                                <rect key="frame" x="30" y="184" width="354" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -275,12 +277,13 @@
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="zLa-yN-PJz">
                                 <rect key="frame" x="30" y="259" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" identifier="TermsSwitch"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="49" id="6rj-fg-IrL"/>
                                     <constraint firstAttribute="height" constant="31" id="kTJ-bw-q3x"/>
                                 </constraints>
                             </switch>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rb-zg-Xwr">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rb-zg-Xwr">
                                 <rect key="frame" x="30" y="337" width="354" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -291,15 +294,16 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="onSaveTapped:" destination="Hn0-gX-bzg" eventType="touchUpInside" id="gCI-cf-Gj1"/>
                                     <action selector="onSendTapped:" destination="U7v-oL-oka" eventType="touchUpInside" id="xRx-k5-bLo"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="InvitationLogin"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="NN4-qi-RH8" secondAttribute="trailing" constant="30" id="6Np-7i-YjU"/>
                             <constraint firstItem="K0K-9E-lb0" firstAttribute="top" secondItem="pWh-2i-GBc" secondAttribute="top" constant="12" id="A7N-E0-mH5"/>
+                            <constraint firstItem="pWh-2i-GBc" firstAttribute="trailing" secondItem="qBh-c9-4e2" secondAttribute="trailing" constant="30" id="HBl-uz-jmw"/>
                             <constraint firstItem="zLa-yN-PJz" firstAttribute="top" secondItem="0bh-Cr-WeM" secondAttribute="bottom" constant="20" id="NUA-i8-lfp"/>
                             <constraint firstItem="K0K-9E-lb0" firstAttribute="centerX" secondItem="0nj-O3-5z8" secondAttribute="centerX" id="XK0-OB-thc"/>
                             <constraint firstItem="zLa-yN-PJz" firstAttribute="leading" secondItem="pWh-2i-GBc" secondAttribute="leading" constant="30" id="daR-KC-pvy"/>
@@ -318,6 +322,7 @@
                     </view>
                     <connections>
                         <outlet property="invitationCodeTxtFld" destination="0bh-Cr-WeM" id="g4O-He-ZQ1"/>
+                        <outlet property="sendBtn" destination="4rb-zg-Xwr" id="opA-SL-5Sl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewv-lz-orv" userLabel="First Responder" sceneMemberID="firstResponder"/>

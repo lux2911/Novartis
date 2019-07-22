@@ -12,13 +12,26 @@ import SVProgressHUD
 class InvitationCodeLoginViewController: UIViewController {
 
     @IBOutlet weak var invitationCodeTxtFld: UITextField!
+    
+    @IBOutlet weak var sendBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         invitationCodeTxtFld.becomeFirstResponder()
     }
     
-
+    
+    private func setupView() {
+        invitationCodeTxtFld.addTarget(self, action: #selector(LoginViewController.textFieldDidChange(_:)),
+                                 for: UIControl.Event.editingChanged)
+        
+        sendBtn.setTitleColor(UIColor.lightGray, for: .disabled)
+    }
+    
+    @objc func textFieldDidChange(_ textField: UITextField) {
+        sendBtn.isEnabled = !textField.text!.isEmpty
+    }
    
     @IBAction func onSendTapped(_ sender: Any) {
         

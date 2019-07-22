@@ -29,6 +29,26 @@
       language = "de"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5159FE222E6532D00E936A2"
+               BuildableName = "NovartisUITests Germany.xctest"
+               BlueprintName = "NovartisUITests Germany"
+               ReferencedContainer = "container:Novartis.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D5159FF722E66BF700E936A2"
+               BuildableName = "NovartisTests Germany.xctest"
+               BlueprintName = "NovartisTests Germany"
+               ReferencedContainer = "container:Novartis.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

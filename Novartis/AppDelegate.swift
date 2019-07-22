@@ -16,11 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-       /* self.window = UIWindow(frame: UIScreen.main.bounds)
+        clearDataIfTesting()
+        self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.rootViewController =  getInitialViewController()
-        self.window?.makeKeyAndVisible()*/
+        self.window?.makeKeyAndVisible()
         
         return true
+    }
+    
+    func clearDataIfTesting() {
+        if NSClassFromString("XCTest") != nil || UIApplication.isRunningTest {
+            _ = LoginManager.credentialsManager.clear()
+            LoginManager.userData = nil
+        }
+        
     }
     
     func getInitialViewController() -> UIViewController {
